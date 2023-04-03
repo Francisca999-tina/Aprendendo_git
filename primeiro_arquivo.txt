@@ -1,0 +1,41 @@
+
+Sobre o Git 
+
+- **O Que é o Git ?**
+    - Sistema que grava as mudanças feitas em nossos arquivos ao longo do tempo por meio de “snapshots”
+    - Podemos voltar em uma determinada mudança a qualquer momento
+    - Permite a colaboração de vários desenvolvedores no projeto
+
+- **Fluxo Git**
+    - git init: inicializa o repositório Git (necessário)
+    - git add.: prepara os arquivos para serem commitados
+    - git commit -m “mensagem”: faz commit dos arquivos preparados
+
+- **Configuração Inicial do Git**
+    - Para colocar o nome no git: 
+     Primeiro escreve o comando git config - - global [user.name](http://user.name) ”USUARIO”
+    - Para colocar o email
+     git config - - global [user.email](http://user.email) “COLOQUE SEU EMAIL AQUI”
+
+- **Alguns comandos**
+git init - para iniciar o git 
+
+- pwd - mostra onde está executando os comandos
+- cd - nome da pasta que quero acessar
+- cd ..  - para voltar para diretório anterior
+- mkdir - criar a pasta
+- ls - lista de arquivos ou pasta , mostra na pasta atual
+- ls -la para ver diretórios ocultos
+- touch - criar arquivo
+- git init - reposicionar repositorio local, permite fazer os commits
+- master é um nome q veio de uma branch
+- git status - situação atual do repositorio
+- git add - adicionando arquivo no proximo commit ( git add nome do arquivo)
+- git commit -m ‘ ‘  - é forma de descrever qual alteração foi feita naquele momento. 
+(git commit -m ‘adicionando arquivo tal’)
+- git ckeckout -b pagamentos ( para criar uma branch com nome pagamentos )
+
+
+
+
+
